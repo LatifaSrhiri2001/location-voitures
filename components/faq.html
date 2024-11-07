@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+</head>
+<body >
+
+<div class="max-w-4xl mx-auto py-10">
+<h3 class="font-bold mb-16  text-5xl mb-24  mt-48 text-center text-blue-800 ">Foire Aux Questions (FAQ)</h3>
+    
+    <div id="faq-container" class="space-y-4">
+        <div class="faq-item border border-gray-300 rounded-md p-4 bg-white shadow-md">
+            <div class="faq-question cursor-pointer flex justify-between items-center" onclick="toggleFAQ(this)">
+                <h2 class="text-lg font-semibold">Comment puis-je réserver une voiture ?</h2>
+                <svg class="faq-icon w-6 h-6 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </div>
+            <p class="faq-answer mt-2 hidden text-gray-700">Vous pouvez réserver une voiture en ligne sur notre site. Sélectionnez simplement la voiture que vous souhaitez, choisissez vos dates, et suivez les étapes de réservation.</p>
+        </div>
+
+        <div class="faq-item border border-gray-300 rounded-md p-4 bg-white shadow-md">
+            <div class="faq-question cursor-pointer flex justify-between items-center" onclick="toggleFAQ(this)">
+                <h2 class="text-lg font-semibold">Quels documents sont nécessaires pour louer une voiture ?</h2>
+                <svg class="faq-icon w-6 h-6 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </div>
+            <p class="faq-answer mt-2 hidden text-gray-700">Pour louer une voiture, vous aurez besoin d'une pièce d'identité valide, d'un permis de conduire en cours de validité, et d'une carte de crédit pour le dépôt de garantie.</p>
+        </div>
+
+        <div class="faq-item border border-gray-300 rounded-md p-4 bg-white shadow-md">
+            <div class="faq-question cursor-pointer flex justify-between items-center" onclick="toggleFAQ(this)">
+                <h2 class="text-lg font-semibold">Quelles sont les options d'assurance disponibles ?</h2>
+                <svg class="faq-icon w-6 h-6 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </div>
+            <p class="faq-answer mt-2 hidden text-gray-700">Nous proposons plusieurs options d'assurance, y compris l'assurance collision, l'assurance vol, et une couverture de responsabilité civile. Vous pouvez choisir l'option qui convient le mieux à vos besoins lors de la réservation.</p>
+        </div>
+
+        <div class="faq-item border border-gray-300 rounded-md p-4 bg-white shadow-md">
+            <div class="faq-question cursor-pointer flex justify-between items-center" onclick="toggleFAQ(this)">
+                <h2 class="text-lg font-semibold">Que faire en cas de panne ou d'accident ?</h2>
+                <svg class="faq-icon w-6 h-6 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </div>
+            <p class="faq-answer mt-2 hidden text-gray-700">Si vous avez une panne ou un accident, contactez immédiatement notre service d'assistance. Vous recevrez des instructions sur la façon de procéder et les mesures à prendre.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleFAQ(element) {
+        const answer = element.nextElementSibling;
+        const icon = element.querySelector('.faq-icon');
+        
+        answer.classList.toggle('hidden');
+        icon.classList.toggle('rotate-90'); // Rotate icon on toggle
+    }
+</script>
+
+</body>
+</html>

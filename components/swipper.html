@@ -1,0 +1,91 @@
+<link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--HTML CODE-->
+<h1 class="font-bold mb-5  text-blue-900 mt-64 text-5xl text-center ">Découvrez votre voyage idéal</h1>
+       
+<div class="w-full relative container">
+
+    <div class="swiper default-carousel swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="rounded-2xl h-96 flex flex-col justify-center items-center">
+                    <img class="rounded-full object-cover w-24 h-24" src="https://pagedone.io/asset/uploads/1696229969.png" alt="avatar">
+                    <div class="mt-4 text-center">
+                        <p class="font-bold text-xl text-indigo-600">John Doe</p>
+                        <p class="text-gray-700 mt-1">"This service has exceeded my expectations! Highly recommend it!"</p>
+                        <div class="mt-2">
+                            <span class="text-yellow-400 font-semibold">5.0</span> | 
+                            <span class="text-gray-500">50 Reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rounded-2xl h-96 flex flex-col justify-center items-center">
+                    <img class="rounded-full object-cover w-24 h-24" src="https://pagedone.io/asset/uploads/1696229969.png" alt="avatar">
+                    <div class="mt-4 text-center">
+                        <p class="font-bold text-xl text-indigo-600">John Doe</p>
+                        <p class="text-gray-700 mt-1">"This service has exceeded my expectations! Highly recommend it!"</p>
+                        <div class="mt-2">
+                            <span class="text-yellow-400 font-semibold">5.0</span> | 
+                            <span class="text-gray-500">50 Reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rounded-2xl h-96 flex flex-col justify-center items-center">
+                    <img class="rounded-full object-cover w-24 h-24" src="https://pagedone.io/asset/uploads/1696229969.png" alt="avatar">
+                    <div class="mt-4 text-center">
+                        <p class="font-bold text-xl text-indigo-600">John Doe</p>
+                        <p class="text-gray-700 mt-1">"This service has exceeded my expectations! Highly recommend it!"</p>
+                        <div class="mt-2">
+                            <span class="text-yellow-400 font-semibold">5.0</span> | 
+                            <span class="text-gray-500">50 Reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center gap-8 lg:justify-start justify-center">
+            <button id="slider-button-left" class="swiper-button-prev group !p-2 flex justify-center items-center !w-12 !h-12 transition-all duration-500 rounded-full !top-2/4 !-translate-y-8 !left-5 " data-carousel-prev>
+                <svg class="h-5 w-5 text-indigo-600 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M10.0002 11.9999L6 7.99971L10.0025 3.99719" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <button id="slider-button-right" class="swiper-button-next group !p-2 flex justify-center items-center   !w-12 !h-12 transition-all duration-500 rounded-full !top-2/4 !-translate-y-8 !right-5 " data-carousel-next>
+                <svg class="h-5 w-5 text-indigo-600 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M6 11.9999L10.0002 7.99971L6 3.99719" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+<style>
+    /* CSS Code */
+    .swiper-wrapper {
+        width: 100%;
+        height: max-content !important;
+        padding-bottom: 70px !important;
+        -webkit-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+        position: relative;
+    }
+</style>
+
+<script>
+    var swiper = new Swiper(".default-carousel", {
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>

@@ -1,0 +1,103 @@
+/* 3d405b
+e07a5f 
+f4f1de */
+
+
+*,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .hero-section {
+  position: relative;
+  height: 700px;
+}
+input.form-control:focus{
+  border:1px solid dark;
+
+}
+input.form-control{
+  background-color: #6a6a6a;
+
+}
+.accordion-button:focus{
+  outline:none;
+  border:none;
+  box-shadow:none ;
+
+}
+
+.hero-section img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.search-box {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+/* input */
+.search-bar input
+{
+  border: none;
+  background-color: #f8f7f9;
+  padding:15px;
+}
+.search-bar input
+
+{
+  border: none;
+  background-color: #f4eaff;
+  padding:15px;
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.intro-text p {
+  background-color: #f4eaff;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #6a6a6a;
+}
+.hero {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero img {
+  border-radius: 10px;
+}
+.marque-section {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.marque-section img {
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.faq{
+margin-top: 60px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 44, 44, 0.701); /* Semi-transparent noir */
+}
+
+.card-img-top {
+  width: 100%; /* Make image take the full width of the card */
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the area, cropping if necessary */
+}
+ */

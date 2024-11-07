@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.car-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.car-card:hover {
+    transform: scale(1.02);
+}
+.car-card img {
+   height:100%;
+    object-fit: cover;
+    border: none;
+}
+.search-bar {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.cta-button ,
+ .btn-outline{
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.cta-button:hover
+,
+.btn-outline:hover {
+    background-color: #5a33a8;
+}
+
+ .btn-search{
+    background-color: #6f42c1;
+    color: #fff;
+   
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.btn-search:hover {
+    background-color: #5a33a8;
+}
+.card-img-top {
+width: 100%; /* Make image take the full width of the card */
+height: 200px; /* Set a fixed height for all images */
+object-fit: cover; /* Ensures the image covers the area, cropping if necessary */
+border: none;
+}
+.custom-input {
+border: none;
+border-radius: 50px;
+
+background-color: #f8f9fa; /* Light background color */
+}
+
+.custom-input:focus {
+box-shadow: none; /* Removes shadow on focus */
+outline: none; /* Removes outline */
+border: 2px solid #6f42c1 ;
+}
+
+.btn-primary {
+border-radius: 50px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+.custom-input {
+border-radius: 30px; /* Slightly smaller border-radius on smaller screens */
+}
+}
+
+
+
+  .bg-lightblue {
+      background-color: #e0f7fa; /* Soft blue */
+      border-radius: 15px; /* Rounded corners */
+  }
+
+  @media (max-width: 768px) {
+      .col-md-6 img {
+          max-height: 200px; /* Limit the image height on smaller screens */
+          object-fit: cover; /* Ensure the image fits well */
+      }
+  }
